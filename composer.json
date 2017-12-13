@@ -44,5 +44,6 @@
         "Prettus\\Repository\\Providers\\RepositoryServiceProvider"
       ]
     }
-  }
+  },
+  "minimum-stability":"stable"
 }
