@@ -1,5 +1,5 @@
 {
-  "name": "zeroibc/z5-repository",
+  "name": "zeroibc/zero-repository",
   "repositories": [
         {
             "type": "vcs",
