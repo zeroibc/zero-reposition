@@ -1,0 +1,48 @@
+{
+  "name": "zeroibc/z5-repository",
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/zeroibc/zero-repository"
+        }
+    ],
+  "description": "Laravel z5 - Repositories to  the database layer",
+  "keywords": ["laravel", "repository", "eloquent", "model", "cache"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zeroibc",
+      "email": "zeroibc@qq.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "zeroibc@qq.com"
+  },
+  "require": {
+    "illuminate/http": "~5.0",
+    "illuminate/config": "~5.0",
+    "illuminate/support": "~5.0",
+    "illuminate/database": "~5.0",
+    "illuminate/pagination": "~5.0",
+    "illuminate/console": "~5.0",
+    "illuminate/filesystem": "~5.0",
+    "zeroibc/laravel-validation": "1.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Prettus\\Repository\\": "src/Prettus/Repository/"
+    }
+  },
+  "suggest": {
+    "league/fractal": "Required to use the Fractal Presenter (0.12.*).",
+    "robclancy/presenter": "Required to use the Presenter Model (1.3.*)"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Prettus\\Repository\\Providers\\RepositoryServiceProvider"
+      ]
+    }
+  }
+}
