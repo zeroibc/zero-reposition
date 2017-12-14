@@ -6,7 +6,7 @@
             "url": "https://github.com/zeroibc/zero-repository"
         }
     ],
-  "description": "Laravel z5 - Repositories to  the database layer",
+  "description": "Laravel zero - Repositories to  the database layer",
   "keywords": ["laravel", "repository", "eloquent", "model", "cache"],
   "license": "MIT",
   "authors": [
@@ -45,5 +45,5 @@
       ]
     }
   },
-  "minimum-stability":"stable"
+  "minimum-stability":"dev"
 }
